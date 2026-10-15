@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="form">
+        <h1>CALCULATOR</h1>
+
+        <label for="a">Number A</label>
+        <br>
+        <input type="number" id="a">
+        <br>
+
+        <label for="b">Number B</label>
+        <br>
+        <input type="number" id="b">
+        <br>
+
+        <label>Summation :</label>
+        <button onclick="tinh('+')">+</button>
+        <br>
+
+        <label>Subtraction :</label>
+        <button onclick="tinh('-')">-</button>
+        <br>
+
+        <label>Multiplication :</label>
+        <button onclick="tinh('*')">*</button>
+        <br>
+
+        <label>Division :</label>
+        <button onclick="tinh('/')">/</button>
+        <br>
+
+        <label for="result">Result A & B:</label>
+        <br>
+        <input type="text" id="result" readonly>
+    </div>
+
+    <script src="toan.js"></script>
+</body>
+
+</html>
