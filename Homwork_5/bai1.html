@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN CHAN VA LE</title>
+    <style>
+        .Square1 {
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            background: rgb(224, 25, 58);
+            border: 1px solid black;
+        }
+        
+        .Square2 {
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            background: rgb(25, 224, 58);
+            border: 1px solid black;
+        }
+        
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        for (var i = 0; i <= 5; i++) {
+            for (var j = 0; j <= 10; j++) {
+                if (i % 2 == 0) {
+                    document.write("<div class='Square1'></div>");
+                } else {
+                    document.write("<div class='Square2'></div>");
+                }
+            }
+            document.write("<div class='clear'></div>");
+        }
+    </script>
+</body>
+
+</html>
